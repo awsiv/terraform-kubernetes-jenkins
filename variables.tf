@@ -47,3 +47,8 @@ variable "jnlp_node_port" {
   description = "(optional) JNLP port used by Jenkins agents"
   default     = "30001"
 }
+
+variable "jenkins_image" {
+  description = "Jenkins container image"
+  default     = "jenkins/jenkins:latest"
+}
